@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://i.ibb.co/G3Ysb7N/bg.jpg);
+    background-size: cover;
+}
+.box{
+    width: 35%;
+    height: 625px;
+    background: white;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+.form{
+    margin-top: 5%;
+    margin-left: 37%;
+    color: black;
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+}
+.form p{
+    margin: 0;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.form input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.form input[type="text"], input[type="password"], input[type="email"]{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-color: rgb(231, 238, 238);
+    border-style: solid;
+    border-radius: 4px;
+}
+.form input[type="submit"]{
+    background-color: rgb(10, 146, 10);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+}
+#Signin{
+    text-align: center;
+}
+#Sign{
+    color: rgb(7, 126, 7);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://i.ibb.co/G3Ysb7N/bg.jpg);
+    background-size: cover;
+}
+li, a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #777d7d73;
+    height: 60px;
+}
+.logo{
+    height: 50px;
+    width: 60px;
+    margin-left: 60px;
+}
+.Navigation{
+    list-style: none;
+}
+.Navigation li{
+    display: inline-block;
+    padding: 0px 50px;
+}
+.Navigation li a:hover{
+    color: #ff5100fa;
+}
